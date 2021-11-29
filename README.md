@@ -8,6 +8,19 @@ Install
 
     go get github.com/hectorchu/gonano
 
+### Manual Install
+    
+Get and install go if you don't have it: https://go.dev
+
+then
+
+    wget https://github.com/hectorchu/gonano/archive/refs/heads/master.zip
+    unzip master.zip
+    cd gonano-master
+    go build
+
+If you're familiar with git, you could use that to download the code then you need only the last line to build.
+
 Command-line usage
 ------------------
 
